@@ -1,0 +1,34 @@
+What will I need: 
+
+MVC Setup 
+model is how you structure your data
+-this is the back end and the database part 
+	-schema
+		*department 
+			*id
+			*department names 
+		*roles (what people do) 
+			*id 
+			*title 
+			*salary 
+			*department id 
+		*Employee (who the actual individuals are) 
+			*id 
+			*first name 
+			*last name 
+			*role_id 
+			*manager_id 
+			
+	*seeds
+		(try doing it here with the office)  
+	
+the controller 
+-routes for the database 
+	-your routes specifically with the input and output of the backend this could include the front end as well 
+
+
+views
+-routes between controllers and the view aren’t necessarily in the controller 
+-static files are in here
+	-handlebars -it forces you to separate 
+	-when you 
